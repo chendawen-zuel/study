@@ -1,0 +1,62 @@
+# Python bytecode, caches and test reports
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+.conda/
+
+# Local credentials (keep an example configuration)
+.env
+.env.*
+!.env.example
+!.env.sample
+credentials.json
+service-account*.json
+*.pem
+*.key
+
+# Temporary files and logs
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.bak
+~$*
+
+# Packaging and generated metadata
+build/
+dist/
+*.egg-info/
+
+# Downloaded model weights and training checkpoints
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.gguf
+
+# Rebuildable local retrieval indexes
+vector_store/
+vectorstore/
+faiss_index/
+*.faiss
+
+# Operating system and personal editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+*.swo
