@@ -1,0 +1,9 @@
+langchain>=1.0,<2
+langgraph>=1.0,<2
+langchain-openai>=1.0,<2
+langchain-chroma>=1.0,<2
+langchain-text-splitters>=1.0,<2
+chromadb>=1.0,<2
+streamlit>=1.45,<2
+python-dotenv>=1.0,<2
+pypdf>=5,<7
